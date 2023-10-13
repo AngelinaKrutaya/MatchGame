@@ -1,0 +1,10 @@
+^C:\USERS\ANGEL\UNREAL PROJECT\GAMEPROJECT\BUILD\CMAKEFILES\EBECBB9AF62212336F60BC47C7DC9B99\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/angel/Unreal project/GameProject" "-BC:/Users/angel/Unreal project/GameProject/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/angel/Unreal project/GameProject/build/MatchGame.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

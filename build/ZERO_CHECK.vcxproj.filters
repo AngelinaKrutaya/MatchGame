@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\angel\Unreal project\GameProject\build\CMakeFiles\ebecbb9af62212336f60bc47c7dc9b99\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1C6B7E7D-3EED-3C10-88A5-C07C8258DF60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
